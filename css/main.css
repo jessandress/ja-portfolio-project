@@ -1,0 +1,63 @@
+/***** BASE STYLES *****/
+body{
+  font-family: "Lato", sans-serif;
+}
+
+/***** GRID *****/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width{
+  width: 600px;
+  float: left;
+}
+.third-width{
+  width: 400 px;
+  float: left;
+}
+
+/***** HEADER *****/
+header{
+  height: 800px;
+  background-color: #217f7e;
+  background-size: cover;
+}
+header h1{
+  color: #bcfffe;
+  font-family: "Lustria", serif;
+  font-size: 80px;
+  padding: 200px 300px 300px 200px;
+}
+header h2{
+  color: #bcfffe;
+  font-size: 40px;
+  padding: 200px 300px 300px 200px;
+}
+
+/***** PORTFOLIO IMAGES *****/
+
+#porfolio div{
+  height:100px;
+  overflow: hidden;
+  width: 400px;
+}
+
+/***** MENU*****/
+
+#menu h2{
+  font-family: "Lustria", serif;
+  font-size: 30px;
+  padding: 50px 0;
+
+}
+#menu nav ul li{
+  display: block;
+  height: 30px;
+  float: left;
+  padding: 0;
+  text-decoration: none;
+}
+ul li:hover{
+  background-color: #6cfffc;
+}
