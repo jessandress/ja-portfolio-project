@@ -20,35 +20,49 @@ body{
 /***** HEADER *****/
 header{
   height: 800px;
-  background-color: #BAAEBF;
+  background-color: #000000;
   background-size: cover;
 }
 header h1{
+  clear:both;
   color: #ffffff;
   font-family: "Lustria", serif;
   font-size: 80px;
-  padding: 200px 300px 300px 200px;
+  font-weight:100;
+  letter-spacing: 10px;
+  padding-top:200px;
+  text-align: center;
 }
 header p{
-  color: #F8E8FF;
-  font-size: 40px;
+  clear: both;
+  color: #ffffff;
+  font-size: 30px;
   font-style: italic;
-  padding: 200px 300px 300px 200px;
+  font-weight:100;
+  padding: 0px;
+  text-align: center;
+  text-indent: 30px;
+}
+#header-image{
+  height: 800px;
+  width: auto;
+  overflow: hidden;
 }
 
 /***** NAV *****/
 
 nav{
-  float:right;
-  padding: 75px 40px;
+  float:left;
 }
 nav ul li{
+  color: #ffffff;
   display: inline-block;
   height: 30px;
   float: left;
   padding: 0;
   text-decoration: none;
+  word-spacing:30px;
 }
 ul li:hover{
-  background-color: #7C747F;
+  background-color: #E8D1DF;
 }
