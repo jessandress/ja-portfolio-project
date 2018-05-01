@@ -12,52 +12,43 @@ body{
   width: 600px;
   float: left;
 }
-.third-width{
-  width: 400 px;
+.quarter-width{
+  width: 300 px;
   float: left;
 }
 
 /***** HEADER *****/
 header{
   height: 800px;
-  background-color: #217f7e;
+  background-color: #BAAEBF;
   background-size: cover;
 }
 header h1{
-  color: #bcfffe;
+  color: #ffffff;
   font-family: "Lustria", serif;
   font-size: 80px;
   padding: 200px 300px 300px 200px;
 }
-header h2{
-  color: #bcfffe;
+header p{
+  color: #F8E8FF;
   font-size: 40px;
+  font-style: italic;
   padding: 200px 300px 300px 200px;
 }
 
-/***** PORTFOLIO IMAGES *****/
+/***** NAV *****/
 
-#porfolio div{
-  height:100px;
-  overflow: hidden;
-  width: 400px;
+nav{
+  float:right;
+  padding: 75px 40px;
 }
-
-/***** MENU*****/
-
-#menu h2{
-  font-family: "Lustria", serif;
-  font-size: 30px;
-  padding: 50px 0;
-
-}
-#menu nav ul li{
-  display: block;
+nav ul li{
+  display: inline-block;
   height: 30px;
   float: left;
   padding: 0;
   text-decoration: none;
 }
 ul li:hover{
-  background-color: #6cfffc;
+  background-color: #7C747F;
 }
