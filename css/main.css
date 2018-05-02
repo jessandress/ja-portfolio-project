@@ -20,13 +20,13 @@ body{
 /***** HEADER *****/
 header{
   height: 800px;
-  background-color: #000000;
+  background-color: #080a09;
   background-size: cover;
 }
 header h1{
   clear:both;
   color: #ffffff;
-  font-family: "Lustria", serif;
+  font-family: "Lato", serif;
   font-size: 80px;
   font-weight:100;
   letter-spacing: 10px;
@@ -61,8 +61,18 @@ nav ul li{
   float: left;
   padding: 0;
   text-decoration: none;
-  word-spacing:30px;
+  word-spacing:40px;
 }
 ul li:hover{
   background-color: #E8D1DF;
+}
+
+/***** EXPLORE*****/
+
+#explore .quarter-width{
+  padding: 80px 0px;
+  background-color: #FFF7FF;
+}
+#explore h2{
+  color: #978E95;
 }
